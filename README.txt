@@ -1,0 +1,1 @@
+Rennie IT website. Upload contents of this folder to the root of www.rennieit.com. After publishing, confirm the canonical domain, HTTPS, Google Search Console and Bing Webmaster Tools. Test structured data with Google Rich Results Test. Opening date and address are current as of October 22, 2026; update opening banner after opening. No SEO or AI answer placement is guaranteed.
