@@ -25,3 +25,17 @@
 .top .right a.facebook-link{display:inline-flex!important;flex-direction:row!important;align-items:center!important;justify-content:center;gap:7px!important;font-size:15px!important;line-height:1.2!important;white-space:nowrap!important;padding:0!important}
 .top .right a.facebook-link svg.facebook-icon{display:inline-block!important;width:17px!important;height:17px!important;min-width:17px!important;max-width:17px!important;min-height:17px!important;max-height:17px!important;flex:0 0 17px!important;fill:currentColor!important}
 .top .right a.facebook-link span{display:inline!important;font-size:inherit!important;line-height:inherit!important}
+
+/* v11: Show only the Facebook icon next to the address on mobile. Desktop unchanged. */
+@media(max-width:800px){
+  .top .wrap{justify-content:space-between;gap:6px;}
+  .top .wrap > a{min-width:0;white-space:nowrap;}
+  .top .right{display:flex;align-items:center;flex:0 0 auto;gap:0;}
+  .top .right > a[href^="tel:"],.top .right > span{display:none;}
+  .top .right a.facebook-link{display:inline-flex!important;min-width:28px;min-height:32px;align-items:center;justify-content:center;}
+  .top .right a.facebook-link span{display:none!important;}
+  .top .right a.facebook-link svg.facebook-icon{width:18px!important;height:18px!important;fill:currentColor;}
+}
+@media(max-width:480px){
+  .top .wrap{width:calc(100% - 20px);font-size:clamp(9px,2.75vw,11px);}
+}
