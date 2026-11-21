@@ -39,3 +39,11 @@
 @media(max-width:480px){
   .top .wrap{width:calc(100% - 20px);font-size:clamp(9px,2.75vw,11px);}
 }
+
+/* v12: Label the existing mobile Facebook icon without changing desktop or header layout. */
+@media(max-width:800px){
+  .top .right a.facebook-link{gap:4px!important;min-width:0;min-height:32px;font-size:11px!important;font-weight:600;}
+  .top .right a.facebook-link span{display:inline!important;font-size:11px!important;line-height:1!important;}
+  .top .right a.facebook-link svg.facebook-icon{width:17px!important;height:17px!important;min-width:17px!important;max-width:17px!important;flex:0 0 17px!important;}
+}
+@media(max-width:380px){.top .right a.facebook-link span{font-size:10px!important;}}
