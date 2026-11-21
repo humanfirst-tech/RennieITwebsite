@@ -1,1 +1,1 @@
-Rennie IT multi-page website. Upload all files and assets/ to the root of the GitHub Pages repository. Every service has a separate HTML page. Keep CNAME for rennieit.com. Test locally by opening index.html.
+Rennie IT website v8. Five service-page images replaced with custom people-free artwork. Home page and its imagery are unchanged. Upload all extracted files to your GitHub Pages repository.
